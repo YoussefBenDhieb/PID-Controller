@@ -47,7 +47,7 @@ public:
   /*
   * Number of iterations to call twiddle function
   */ 
-  const int N_ITER = 200;
+  const int N_ITER = 10000;
 
   /*
   * Throttle

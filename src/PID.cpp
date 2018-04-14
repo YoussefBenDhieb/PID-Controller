@@ -150,12 +150,5 @@ void PID::Twiddle(){
 		}
 
 		
-	}else{
-		if (this->throttle < 1){
-			this->throttle += 0.05;
-			this->dKp = 0.02;
-			this->dKi = 0.02;
-			this->dKd = 0.02;
-		}
 	}
 }
